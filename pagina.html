@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Interactiva</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy [Tu Nombre]. Me gusta la tecnología, el desarrollo web y crear proyectos interactivos. A continuación, puedes ver un formulario y un botón interactivo para cambiar el tema de la página.</p>
+
+        <h3>Formulario de Contacto</h3>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="responseMessage"></p>
+
+        <h3>Cambiar Tema de la Página</h3>
+        <button id="themeButton">Cambiar Tema</button>
+    </section>
+
+    <aside>
+        <h3>Enlaces de Interés</h3>
+        <ul>
+            <li><a href="https://www.example1.com" target="_blank">Ejemplo 1</a></li>
+            <li><a href="https://www.example2.com" target="_blank">Ejemplo 2</a></li>
+            <li><a href="https://www.example3.com" target="_blank">Ejemplo 3</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 - Todos los derechos reservados | Contacto: correo@ejemplo.com</p>
+    </footer>
+</body>
+</html>
